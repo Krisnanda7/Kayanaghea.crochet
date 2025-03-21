@@ -1,0 +1,95 @@
+body {
+  background-color: #F5F5DC;
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.bg-brown {
+  background-color:#F5F5DC;
+}
+
+/* Hero */
+.hero-box .box p {
+  width: 500px;
+}
+
+.hero-box .box img {
+  width: 400px;
+}
+
+.hero-box .box:nth-child(1) {
+  --animate-delay: 0.5s;
+}
+
+@media (max-width: 992px) {
+  .hero-box .box p {
+    font-size: 14px;
+    width: 300px;
+  }
+
+  .hero-box .box img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 50px;
+  }
+
+  .hero-box {
+    text-align: center;
+  }
+
+  .hero-box .box p {
+    width: 100%;
+  }
+}
+/* Hero */
+
+/* About */
+.about-box img {
+  width: 400px;
+}
+
+@media (max-width: 475px) {
+  .about-box img {
+    width: 300px;
+  }
+}
+/* About */
+
+/* Services */
+.services-box .service i {
+  font-size: 30px;
+}
+/* Services */
+
+/* FAQ */
+.faq-box .accordion-button::after {
+  background-color: white;
+  border-radius: 100%;
+}
+/* FAQ */
+
+/* Footer */
+.footer {
+  margin-top: 100px;
+  padding-bottom: 20px;
+}
+
+.footer-box .row .col:nth-child(2) a {
+  opacity: 75%;
+}
+
+.footer-box .row .col:nth-child(2) a:hover {
+  opacity: 100%;
+}
+
+.copyright {
+  margin-top: 100px;
+}
+/* Footer */
